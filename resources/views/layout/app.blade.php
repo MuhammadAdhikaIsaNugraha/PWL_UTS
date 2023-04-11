@@ -13,13 +13,13 @@
 
 <body>
     <!-- navbar -->
-    {{-- <nav class="navbar bg-light">
+    <nav class="navbar bg-light">
         <div class="container-fluid">
             <a class="navbar-brand ms-5" href="/barang">Home</a>
             <a class="navbar-brand" href="/home">Back to Home Page</a>
             
         </div>
-    </nav> --}}
+    </nav>
 
     <nav class="navbar navbar-dark bg-dark">
         <div class="container-fluid">
