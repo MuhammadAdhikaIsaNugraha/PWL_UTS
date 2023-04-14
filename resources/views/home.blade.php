@@ -7,11 +7,11 @@
 
     <body>
         <div class="container">
-            <div class="judul">
+            <div class="judul text-center" >
                 <h1>Welcome Home</h1>
             </div>
-            <div>
-                <p>Dont forget to click Home</p>
+            <div class="text-center">
+                <p>Jangan lupa click Lihat Barang</p>
             </div>
             <div class="row">
             </div>

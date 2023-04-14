@@ -13,15 +13,15 @@
 
 <body>
     <!-- navbar -->
-    <nav class="navbar bg-light">
+    <nav class="navbar bg-dark">
         <div class="container-fluid">
-            <a class="navbar-brand ms-5" href="/barang">Home</a>
-            <a class="navbar-brand" href="/home">Back to Home Page</a>
-            
+            <a class="navbar-brand ms-5 text-light" href="/barang">Lihat Barang</a>
+            <a class="navbar-brand text-light" href="/home">Back to Home Page</a>
+
         </div>
     </nav>
 
-    <nav class="navbar navbar-dark bg-dark">
+    {{-- <nav class="navbar navbar-dark bg-dark">
         <div class="container-fluid">
             <a class="navbar-brand" href="/barang">Home</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -61,7 +61,7 @@
                 </form>
             </div>
         </div>
-    </nav>
+    </nav> --}}
 
     @yield('contents')
 </body>

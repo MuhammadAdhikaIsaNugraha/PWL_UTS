@@ -31,6 +31,22 @@ class BarangSeeder extends Seeder
             'qty' => '50'
         ]);
 
-        
+        DB::table('tabel_barang')->insert([
+            'id_barang' => '3',
+            'kode_barang' => 'PRD003',
+            'nama_barang' => 'Mouse',
+            'kategori_barang' => 'Elektronik',
+            'harga' => '150000',
+            'qty' => '50'
+        ]);
+
+        DB::table('tabel_barang')->insert([
+            'id_barang' => '22',
+            'kode_barang' => 'PRD022',
+            'nama_barang' => 'Speaker',
+            'kategori_barang' => 'Elektronik',
+            'harga' => '160000',
+            'qty' => '50'
+        ]);
     }
 }
